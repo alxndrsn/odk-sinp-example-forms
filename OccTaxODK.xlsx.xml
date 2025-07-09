@@ -1,0 +1,1836 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>OccTaxODK</h:title>
+    <model odk:xforms-version="1.0.0">
+      <itext>
+        <translation lang="default" default="true()">
+          <text id="/data/presentation/presentation:label">
+            <value>OccTaxODK</value>
+            <value form="image">jr://images/logos.png</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data id="occ_tax_odk" version="1">
+          <presentation>
+            <presentation/>
+          </presentation>
+          <changer_preferences/>
+          <settings>
+            <choix/>
+            <utiliser_geopoint/>
+            <utiliser_geotrace/>
+            <utiliser_geoshape/>
+            <nommage_site/>
+            <affichage_altitude/>
+            <affichage_profondeur/>
+            <renseigner_naturalite/>
+            <renseigner_statut_biogeo/>
+            <nb_lettres/>
+            <tolerance/>
+          </settings>
+          <preferences_utilisateur/>
+          <tolerance_pour_creation_point_auto/>
+          <nombre_lettres/>
+          <observateurs>
+            <preremplissage/>
+            <email_utilisateur/>
+            <username/>
+            <identite/>
+            <mail/>
+            <nomorganisme>INDEPENDANT</nomorganisme>
+            <autre_nomorganisme/>
+            <ajout_accompagnateur/>
+          </observateurs>
+          <observateurs_accompagnateurs jr:template="">
+            <identite_accompagnateur/>
+            <mail_accompagnateur/>
+            <nomorganisme_accompagnateur>INDEPENDANT</nomorganisme_accompagnateur>
+            <autre_nomorganisme_accompagnateur/>
+          </observateurs_accompagnateurs>
+          <observateurs_accompagnateurs>
+            <identite_accompagnateur/>
+            <mail_accompagnateur/>
+            <nomorganisme_accompagnateur>INDEPENDANT</nomorganisme_accompagnateur>
+            <autre_nomorganisme_accompagnateur/>
+          </observateurs_accompagnateurs>
+          <date_heure/>
+          <emplacements jr:template="">
+            <localites>
+              <precisions_georef>
+                <heure_localite/>
+                <nom_lieu/>
+                <methode_georef>point_auto</methode_georef>
+              </precisions_georef>
+              <objetgeo>
+                <longitude/>
+                <latitude/>
+                <point_auto_5/>
+                <point_auto_10/>
+                <point_auto_15/>
+                <point/>
+                <ligne/>
+                <polygone/>
+                <precision_geometrie/>
+              </objetgeo>
+              <nature_objetgeo/>
+              <liste_especes_observees/>
+              <observations jr:template="">
+                <obs>
+                  <idsinp_occtax/>
+                  <lib_obs/>
+                  <datedebut/>
+                  <heuredebut/>
+                  <type_observation/>
+                  <animalia_selection>
+                    <recherche_animalia/>
+                    <lb_nom_animalia/>
+                    <cd_nom_animalia/>
+                  </animalia_selection>
+                  <plantae_selection>
+                    <recherche_plantae/>
+                    <lb_nom_plantae/>
+                    <cd_nom_plantae/>
+                  </plantae_selection>
+                  <fungi_selection>
+                    <recherche_fungi/>
+                    <lb_nom_fungi/>
+                    <cd_nom_fungi/>
+                  </fungi_selection>
+                  <nomcite/>
+                  <groupe/>
+                  <version_taxref/>
+                  <denombrement_obs>
+                    <statut_observation>Pr</statut_observation>
+                    <type_denombrement>Co</type_denombrement>
+                    <denombrement/>
+                    <estimation_effectif>
+                      <denombrementmin/>
+                      <denombrementmax/>
+                    </estimation_effectif>
+                    <objet_denombrement>IND</objet_denombrement>
+                  </denombrement_obs>
+                  <descriptif_sujet>
+                    <obs_description/>
+                    <obs_contexte/>
+                    <obs_technique/>
+                    <occ_methode_determination/>
+                    <occ_etat_biologique>Observé vivant</occ_etat_biologique>
+                    <occ_naturalite>Sauvage</occ_naturalite>
+                    <occ_sexe/>
+                    <occ_stade_vie/>
+                    <occ_comportement/>
+                    <occ_statut_biogeographique>Présent (indigène ou indéterminé)</occ_statut_biogeographique>
+                    <occ_statut_biologique/>
+                    <preuve_existante/>
+                    <preuve_observation>
+                      <prise_image/>
+                      <echantillon/>
+                      <url_preuve_numerique/>
+                      <preuve_non_numerique/>
+                    </preuve_observation>
+                  </descriptif_sujet>
+                  <precision_altitude/>
+                  <precision_obs_altitude>
+                    <altitudemin/>
+                    <altitudemoyenne/>
+                    <altitudemax/>
+                  </precision_obs_altitude>
+                  <precision_profondeur/>
+                  <precision_obs_profondeur>
+                    <profondeurmin/>
+                    <profondeurmoyenne/>
+                    <profondeurmax/>
+                  </precision_obs_profondeur>
+                  <datefin/>
+                  <heurefin/>
+                  <precision_determination/>
+                  <PersonneType_determinateur>
+                    <date_determination/>
+                    <determinateur/>
+                    <nomorganisme_determinateur/>
+                    <autre_nomorganisme_determinateur/>
+                  </PersonneType_determinateur>
+                  <especes_observees/>
+                  <commentaire/>
+                </obs>
+              </observations>
+              <observations>
+                <obs>
+                  <idsinp_occtax/>
+                  <lib_obs/>
+                  <datedebut/>
+                  <heuredebut/>
+                  <type_observation/>
+                  <animalia_selection>
+                    <recherche_animalia/>
+                    <lb_nom_animalia/>
+                    <cd_nom_animalia/>
+                  </animalia_selection>
+                  <plantae_selection>
+                    <recherche_plantae/>
+                    <lb_nom_plantae/>
+                    <cd_nom_plantae/>
+                  </plantae_selection>
+                  <fungi_selection>
+                    <recherche_fungi/>
+                    <lb_nom_fungi/>
+                    <cd_nom_fungi/>
+                  </fungi_selection>
+                  <nomcite/>
+                  <groupe/>
+                  <version_taxref/>
+                  <denombrement_obs>
+                    <statut_observation>Pr</statut_observation>
+                    <type_denombrement>Co</type_denombrement>
+                    <denombrement/>
+                    <estimation_effectif>
+                      <denombrementmin/>
+                      <denombrementmax/>
+                    </estimation_effectif>
+                    <objet_denombrement>IND</objet_denombrement>
+                  </denombrement_obs>
+                  <descriptif_sujet>
+                    <obs_description/>
+                    <obs_contexte/>
+                    <obs_technique/>
+                    <occ_methode_determination/>
+                    <occ_etat_biologique>Observé vivant</occ_etat_biologique>
+                    <occ_naturalite>Sauvage</occ_naturalite>
+                    <occ_sexe/>
+                    <occ_stade_vie/>
+                    <occ_comportement/>
+                    <occ_statut_biogeographique>Présent (indigène ou indéterminé)</occ_statut_biogeographique>
+                    <occ_statut_biologique/>
+                    <preuve_existante/>
+                    <preuve_observation>
+                      <prise_image/>
+                      <echantillon/>
+                      <url_preuve_numerique/>
+                      <preuve_non_numerique/>
+                    </preuve_observation>
+                  </descriptif_sujet>
+                  <precision_altitude/>
+                  <precision_obs_altitude>
+                    <altitudemin/>
+                    <altitudemoyenne/>
+                    <altitudemax/>
+                  </precision_obs_altitude>
+                  <precision_profondeur/>
+                  <precision_obs_profondeur>
+                    <profondeurmin/>
+                    <profondeurmoyenne/>
+                    <profondeurmax/>
+                  </precision_obs_profondeur>
+                  <datefin/>
+                  <heurefin/>
+                  <precision_determination/>
+                  <PersonneType_determinateur>
+                    <date_determination/>
+                    <determinateur/>
+                    <nomorganisme_determinateur/>
+                    <autre_nomorganisme_determinateur/>
+                  </PersonneType_determinateur>
+                  <especes_observees/>
+                  <commentaire/>
+                </obs>
+              </observations>
+            </localites>
+            <affiche_recap_obs_especes/>
+          </emplacements>
+          <emplacements>
+            <localites>
+              <precisions_georef>
+                <heure_localite/>
+                <nom_lieu/>
+                <methode_georef>point_auto</methode_georef>
+              </precisions_georef>
+              <objetgeo>
+                <longitude/>
+                <latitude/>
+                <point_auto_5/>
+                <point_auto_10/>
+                <point_auto_15/>
+                <point/>
+                <ligne/>
+                <polygone/>
+                <precision_geometrie/>
+              </objetgeo>
+              <nature_objetgeo/>
+              <liste_especes_observees/>
+              <observations>
+                <obs>
+                  <idsinp_occtax/>
+                  <lib_obs/>
+                  <datedebut/>
+                  <heuredebut/>
+                  <type_observation/>
+                  <animalia_selection>
+                    <recherche_animalia/>
+                    <lb_nom_animalia/>
+                    <cd_nom_animalia/>
+                  </animalia_selection>
+                  <plantae_selection>
+                    <recherche_plantae/>
+                    <lb_nom_plantae/>
+                    <cd_nom_plantae/>
+                  </plantae_selection>
+                  <fungi_selection>
+                    <recherche_fungi/>
+                    <lb_nom_fungi/>
+                    <cd_nom_fungi/>
+                  </fungi_selection>
+                  <nomcite/>
+                  <groupe/>
+                  <version_taxref/>
+                  <denombrement_obs>
+                    <statut_observation>Pr</statut_observation>
+                    <type_denombrement>Co</type_denombrement>
+                    <denombrement/>
+                    <estimation_effectif>
+                      <denombrementmin/>
+                      <denombrementmax/>
+                    </estimation_effectif>
+                    <objet_denombrement>IND</objet_denombrement>
+                  </denombrement_obs>
+                  <descriptif_sujet>
+                    <obs_description/>
+                    <obs_contexte/>
+                    <obs_technique/>
+                    <occ_methode_determination/>
+                    <occ_etat_biologique>Observé vivant</occ_etat_biologique>
+                    <occ_naturalite>Sauvage</occ_naturalite>
+                    <occ_sexe/>
+                    <occ_stade_vie/>
+                    <occ_comportement/>
+                    <occ_statut_biogeographique>Présent (indigène ou indéterminé)</occ_statut_biogeographique>
+                    <occ_statut_biologique/>
+                    <preuve_existante/>
+                    <preuve_observation>
+                      <prise_image/>
+                      <echantillon/>
+                      <url_preuve_numerique/>
+                      <preuve_non_numerique/>
+                    </preuve_observation>
+                  </descriptif_sujet>
+                  <precision_altitude/>
+                  <precision_obs_altitude>
+                    <altitudemin/>
+                    <altitudemoyenne/>
+                    <altitudemax/>
+                  </precision_obs_altitude>
+                  <precision_profondeur/>
+                  <precision_obs_profondeur>
+                    <profondeurmin/>
+                    <profondeurmoyenne/>
+                    <profondeurmax/>
+                  </precision_obs_profondeur>
+                  <datefin/>
+                  <heurefin/>
+                  <precision_determination/>
+                  <PersonneType_determinateur>
+                    <date_determination/>
+                    <determinateur/>
+                    <nomorganisme_determinateur/>
+                    <autre_nomorganisme_determinateur/>
+                  </PersonneType_determinateur>
+                  <especes_observees/>
+                  <commentaire/>
+                </obs>
+              </observations>
+            </localites>
+            <affiche_recap_obs_especes/>
+          </emplacements>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </data>
+      </instance>
+      <instance id="espece_animale" src="jr://file-csv/espece_animale.csv"/>
+      <instance id="espece_plante" src="jr://file-csv/espece_plante.csv"/>
+      <instance id="espece_champi" src="jr://file-csv/espece_champi.csv"/>
+      <instance id="__last-saved" src="jr://instance/last-saved"/>
+      <instance id="lst_organisme">
+        <root>
+          <item>
+            <name>AUTRE</name>
+            <label>Autre organisme</label>
+          </item>
+          <item>
+            <name>INDEPENDANT</name>
+            <label>Indépendant</label>
+          </item>
+          <item>
+            <name>organisme_1</name>
+            <label>Organisme 1</label>
+          </item>
+          <item>
+            <name>organisme_2</name>
+            <label>Organisme 2</label>
+          </item>
+          <item>
+            <name>organisme_3</name>
+            <label>Organisme 3</label>
+          </item>
+          <item>
+            <name>organisme_4</name>
+            <label>Organisme 4</label>
+          </item>
+          <item>
+            <name>organisme_5</name>
+            <label>Organisme 5</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="methode_georef">
+        <root>
+          <item>
+            <name>point_auto</name>
+            <label>Point automatique</label>
+            <filter>point</filter>
+          </item>
+          <item>
+            <name>point_carte</name>
+            <label>Point sur une carte</label>
+            <filter>point</filter>
+          </item>
+          <item>
+            <name>ligne</name>
+            <label>Ligne</label>
+            <filter>line</filter>
+          </item>
+          <item>
+            <name>polygone</name>
+            <label>Polygone</label>
+            <filter>polygon</filter>
+          </item>
+          <item>
+            <name>long_lat</name>
+            <label>Saisie de coordonnées</label>
+            <filter>point</filter>
+          </item>
+        </root>
+      </instance>
+      <instance id="tolerance">
+        <root>
+          <item>
+            <name>5</name>
+            <label>5 m</label>
+          </item>
+          <item>
+            <name>10</name>
+            <label>10 m</label>
+          </item>
+          <item>
+            <name>15</name>
+            <label>15 m</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="precision">
+        <root>
+          <item>
+            <name>GPS</name>
+            <label>enregistrée par le GPS</label>
+          </item>
+          <item>
+            <name>0_25</name>
+            <label>0 à 25 m.</label>
+          </item>
+          <item>
+            <name>25_100</name>
+            <label>25 à 100 m.</label>
+          </item>
+          <item>
+            <name>100_200</name>
+            <label>100 à 200 m.</label>
+          </item>
+          <item>
+            <name>200_500</name>
+            <label>200 à 500 m.</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="NAT_OBJ_GEO">
+        <root>
+          <item>
+            <name>In</name>
+            <label>Inventoriel (taxon observé présent quelque part dans l'objet géographique)</label>
+          </item>
+          <item>
+            <name>St</name>
+            <label>Stationnel (taxon observé présent sur l'ensemble de l'objet géographique)</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="list_observation">
+        <root>
+          <item>
+            <name>plantae</name>
+            <label>Plante</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>animalia</name>
+            <label>Animal</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>fungi</name>
+            <label>Champignon ou lichen</label>
+            <regne>fungi</regne>
+          </item>
+        </root>
+      </instance>
+      <instance id="STATUT_OBS">
+        <root>
+          <item>
+            <name>Pr</name>
+            <label>Présent</label>
+          </item>
+          <item>
+            <name>No</name>
+            <label>Non observé</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="DENBR">
+        <root>
+          <item>
+            <name>Co</name>
+            <label>Compté (énumération des individus)</label>
+          </item>
+          <item>
+            <name>Es</name>
+            <label>Estimé (sans technique de mesure)</label>
+          </item>
+          <item>
+            <name>Ca</name>
+            <label>Calculé (opération mathématique)</label>
+          </item>
+          <item>
+            <name>Nco</name>
+            <label>Non compté (seule la présence ou l'absence notée précédemment est prise en compte)</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="OBJ_DENBR">
+        <root>
+          <item>
+            <name>IND</name>
+            <label>Individu</label>
+            <regne>animalia,plantae,fungi</regne>
+          </item>
+          <item>
+            <name>CPL</name>
+            <label>Couple</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>COL</name>
+            <label>Colonie</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>HAM</name>
+            <label>Hampe florale</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>NID</name>
+            <label>Nid</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>PON</name>
+            <label>Ponte</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>TIGE</name>
+            <label>Tige</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>TOUF</name>
+            <label>Touffe</label>
+            <regne>plantae,fungi</regne>
+          </item>
+          <item>
+            <name>SURF</name>
+            <label>Surface</label>
+            <regne>animalia,plantae,fungi</regne>
+          </item>
+        </root>
+      </instance>
+      <instance id="boolean">
+        <root>
+          <item>
+            <name>true</name>
+            <label>Oui</label>
+          </item>
+          <item>
+            <name>false</name>
+            <label>Non</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="TYP_INF_GEO">
+        <root>
+          <item>
+            <name>1</name>
+            <label>Géoréférencement</label>
+          </item>
+          <item>
+            <name>2</name>
+            <label>Rattachement</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="REF_HAB">
+        <root>
+          <item>
+            <name>ANTMER</name>
+            <label>ANTMER</label>
+          </item>
+          <item>
+            <name>BARC</name>
+            <label>BARC</label>
+          </item>
+          <item>
+            <name>BBMEDFR</name>
+            <label>BBMEDFR</label>
+          </item>
+          <item>
+            <name>BRYOSOCIO</name>
+            <label>BRYOSOCIO</label>
+          </item>
+          <item>
+            <name>CH</name>
+            <label>CH</label>
+          </item>
+          <item>
+            <name>CORINEBIOTOPES</name>
+            <label>CORINEBIOTOPES</label>
+          </item>
+          <item>
+            <name>EUNIS</name>
+            <label>EUNIS</label>
+          </item>
+          <item>
+            <name>GMRC</name>
+            <label>GMRC</label>
+          </item>
+          <item>
+            <name>GUYMER</name>
+            <label>GUYMER</label>
+          </item>
+          <item>
+            <name>HABITATS_MARINS_ATLANTIQUE</name>
+            <label>HABITATS_MARINS_ATLANTIQUE</label>
+          </item>
+          <item>
+            <name>HABITATS_MARINS_DOM</name>
+            <label>HABITATS_MARINS_DOM</label>
+          </item>
+          <item>
+            <name>HABITATS_MARINS_MEDITERRANNEE</name>
+            <label>HABITATS_MARINS_MEDITERRANNEE</label>
+          </item>
+          <item>
+            <name>HABREF</name>
+            <label>HABREF</label>
+          </item>
+          <item>
+            <name>HIC</name>
+            <label>HIC</label>
+          </item>
+          <item>
+            <name>OSPAR</name>
+            <label>OSPAR</label>
+          </item>
+          <item>
+            <name>PAL</name>
+            <label>PAL</label>
+          </item>
+          <item>
+            <name>PALSPM</name>
+            <label>PALSPM</label>
+          </item>
+          <item>
+            <name>PHYTO_CH</name>
+            <label>PHYTO_CH</label>
+          </item>
+          <item>
+            <name>PVF</name>
+            <label>PVF</label>
+          </item>
+          <item>
+            <name>PVF1</name>
+            <label>PVF1</label>
+          </item>
+          <item>
+            <name>PVF2</name>
+            <label>PVF2</label>
+          </item>
+          <item>
+            <name>REBENT</name>
+            <label>REBENT</label>
+          </item>
+          <item>
+            <name>REUMER</name>
+            <label>REUMER</label>
+          </item>
+          <item>
+            <name>SYNSYSTEME_EUROPEEN</name>
+            <label>SYNSYSTEME_EUROPEEN</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="COMPORTEMENT">
+        <root>
+          <item>
+            <name>Accouplement</name>
+            <label>Accouplement</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Chant</name>
+            <label>Chant</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Cœur copulatoire</name>
+            <label>Cœur copulatoire</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Construction de toile</name>
+            <label>Construction de toile</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Déplacement</name>
+            <label>Déplacement</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Dortoir</name>
+            <label>Dortoir</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Echouage</name>
+            <label>Echouage</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Erratique</name>
+            <label>Erratique</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Estivage</name>
+            <label>Estivage</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Halte migratoire</name>
+            <label>Halte migratoire</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Hivernage</name>
+            <label>Hivernage</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Migration</name>
+            <label>Migration</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Non renseigné</name>
+            <label>Non renseigné</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Nourrissage des jeunes</name>
+            <label>Nourrissage des jeunes</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Passage en vol</name>
+            <label>Passage en vol</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Pond</name>
+            <label>Pond</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Posé</name>
+            <label>Posé</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Repos</name>
+            <label>Repos</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Sédentaire</name>
+            <label>Sédentaire</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Swarming</name>
+            <label>Swarming</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Tandem</name>
+            <label>Tandem</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Territorial</name>
+            <label>Territorial</label>
+            <regne>animalia</regne>
+          </item>
+        </root>
+      </instance>
+      <instance id="ETA_BIO">
+        <root>
+          <item>
+            <name>Observé vivant</name>
+            <label>Observé vivant</label>
+          </item>
+          <item>
+            <name>Trouvé mort</name>
+            <label>Trouvé mort</label>
+          </item>
+          <item>
+            <name>Non renseigné</name>
+            <label>Non renseigné</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="METH_OBS">
+        <root>
+          <item>
+            <name>Vu et entendu</name>
+            <label>Vu et entendu</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Vu</name>
+            <label>Vu</label>
+          </item>
+          <item>
+            <name>Entendu</name>
+            <label>Entendu</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>ADN environnemental</name>
+            <label>ADN environnemental</label>
+          </item>
+          <item>
+            <name>Autre</name>
+            <label>Autre</label>
+          </item>
+          <item>
+            <name>Coquilles d'œuf</name>
+            <label>Coquilles d'œuf</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Empreintes</name>
+            <label>Empreintes</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Empreintes et fèces</name>
+            <label>Empreintes et fèces</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Exuvie</name>
+            <label>Exuvie</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Fèces/Guano/Epreintes</name>
+            <label>Fèces/Guano/Epreintes</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Feuille</name>
+            <label>Feuille</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Fleur</name>
+            <label>Fleur</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Galerie/terrier</name>
+            <label>Galerie/terrier</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Mine</name>
+            <label>Mine</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Mues</name>
+            <label>Mues</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Nid/Gîte</name>
+            <label>Nid/Gîte</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Olfactif</name>
+            <label>Contact olfactif</label>
+          </item>
+          <item>
+            <name>Oosphère</name>
+            <label>Oosphère</label>
+          </item>
+          <item>
+            <name>Oothèque</name>
+            <label>Oothèque</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Ovule</name>
+            <label>Ovule</label>
+          </item>
+          <item>
+            <name>Pelote de réjection</name>
+            <label>Pelote de réjection</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Poils/plumes/phanères</name>
+            <label>Poils/plumes/phanères</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Pollen</name>
+            <label>Pollen</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Restes dans pelote de réjection</name>
+            <label>Restes dans pelote de réjection</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Restes de repas</name>
+            <label>Restes de repas</label>
+          </item>
+          <item>
+            <name>Spore</name>
+            <label>Spore</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Ultrasons</name>
+            <label>Ultrasons</label>
+            <regne>animalia</regne>
+          </item>
+        </root>
+      </instance>
+      <instance id="NATURALITE">
+        <root>
+          <item>
+            <name>Sauvage</name>
+            <label>Sauvage</label>
+          </item>
+          <item>
+            <name>Cultivé/élevé</name>
+            <label>Cultivé/élevé</label>
+          </item>
+          <item>
+            <name>Féral</name>
+            <label>Féral</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Inconnu</name>
+            <label>Inconnu</label>
+          </item>
+          <item>
+            <name>Planté</name>
+            <label>Planté</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Subspontané</name>
+            <label>Subspontané</label>
+            <regne>plantae</regne>
+          </item>
+        </root>
+      </instance>
+      <instance id="PREUVE_EXIST">
+        <root>
+          <item>
+            <name>Oui</name>
+            <label>Oui</label>
+          </item>
+          <item>
+            <name>Non</name>
+            <label>Non</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="SEXE">
+        <root>
+          <item>
+            <name>Mâle</name>
+            <label>Mâle</label>
+          </item>
+          <item>
+            <name>Femelle</name>
+            <label>Femelle</label>
+          </item>
+          <item>
+            <name>Mixte</name>
+            <label>Mixte</label>
+          </item>
+          <item>
+            <name>Hermaphrodite</name>
+            <label>Hermaphrodite</label>
+          </item>
+          <item>
+            <name>Indéterminé</name>
+            <label>Indéterminé</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="STADE_VIE">
+        <root>
+          <item>
+            <name>Adulte</name>
+            <label>Adulte</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Sub-adulte</name>
+            <label>Sub-adulte</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Immature</name>
+            <label>Immature</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Juvénile</name>
+            <label>Juvénile</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Imago</name>
+            <label>Imago</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Alevin</name>
+            <label>Alevin</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Chenille</name>
+            <label>Chenille</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Chrysalide</name>
+            <label>Chrysalide</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Emergent</name>
+            <label>Emergent</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Exuvie</name>
+            <label>Exuvie</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Larve</name>
+            <label>Larve</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Mue</name>
+            <label>Mue</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Nymphe</name>
+            <label>Nymphe</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Œuf</name>
+            <label>Œuf</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Post-Larve</name>
+            <label>Post-Larve</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Pupe</name>
+            <label>Pupe</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Sub-imago</name>
+            <label>Sub-imago</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Têtard</name>
+            <label>Têtard</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Bulbe</name>
+            <label>Bulbe</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Fané</name>
+            <label>Fané</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Fruit</name>
+            <label>Fruit</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Germination</name>
+            <label>Germination</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Graine</name>
+            <label>Graine</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Rhizome</name>
+            <label>Rhizome</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Thalle, protothalle</name>
+            <label>Thalle, protothalle</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Tubercule</name>
+            <label>Tubercule</label>
+            <regne>plantae</regne>
+          </item>
+          <item>
+            <name>Indéterminé</name>
+            <label>Indéterminé</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="STAT_BIOGEO">
+        <root>
+          <item>
+            <name>Présent (indigène ou indéterminé)</name>
+            <label>Présent (indigène ou indéterminé)</label>
+          </item>
+          <item>
+            <name>Occasionnel</name>
+            <label>Occasionnel</label>
+          </item>
+          <item>
+            <name>Introduit</name>
+            <label>Introduit</label>
+          </item>
+          <item>
+            <name>Introduit envahissant</name>
+            <label>Introduit envahissant</label>
+          </item>
+          <item>
+            <name>Introduit non établi (dont domestique)</name>
+            <label>Introduit non établi (dont domestique)</label>
+          </item>
+          <item>
+            <name>Inconnu/cryptogène</name>
+            <label>Inconnu/cryptogène</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="STATUT_BIO">
+        <root>
+          <item>
+            <name>Non Déterminé</name>
+            <label>Non Déterminé</label>
+          </item>
+          <item>
+            <name>Pas de reproduction</name>
+            <label>Pas de reproduction</label>
+          </item>
+          <item>
+            <name>Reproduction</name>
+            <label>Reproduction</label>
+          </item>
+          <item>
+            <name>Estivation</name>
+            <label>Estivation</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Hibernation</name>
+            <label>Hibernation</label>
+            <regne>animalia</regne>
+          </item>
+          <item>
+            <name>Végétatif</name>
+            <label>Végétatif</label>
+            <regne>plantae</regne>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/data/presentation/presentation" readonly="true()" type="string"/>
+      <bind nodeset="/data/changer_preferences" type="string"/>
+      <bind nodeset="/data/settings" relevant=" /data/changer_preferences ='true'"/>
+      <bind nodeset="/data/settings/choix" type="string"/>
+      <bind nodeset="/data/settings/utiliser_geopoint" type="string" required="true()"/>
+      <setvalue ref="/data/settings/utiliser_geopoint" value="coalesce( instance('__last-saved')/data/settings/utiliser_geopoint ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/utiliser_geotrace" type="string" required="true()"/>
+      <setvalue ref="/data/settings/utiliser_geotrace" value="coalesce( instance('__last-saved')/data/settings/utiliser_geotrace ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/utiliser_geoshape" type="string" required="true()"/>
+      <setvalue ref="/data/settings/utiliser_geoshape" value="coalesce( instance('__last-saved')/data/settings/utiliser_geoshape ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/nommage_site" type="string" required="true()"/>
+      <setvalue ref="/data/settings/nommage_site" value="coalesce( instance('__last-saved')/data/settings/nommage_site ,'false')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/affichage_altitude" type="string" required="true()"/>
+      <setvalue ref="/data/settings/affichage_altitude" value="coalesce( instance('__last-saved')/data/settings/affichage_altitude ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/affichage_profondeur" type="string" required="true()"/>
+      <setvalue ref="/data/settings/affichage_profondeur" value="coalesce( instance('__last-saved')/data/settings/affichage_profondeur ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/renseigner_naturalite" type="string" required="true()"/>
+      <setvalue ref="/data/settings/renseigner_naturalite" value="coalesce( instance('__last-saved')/data/settings/renseigner_naturalite ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/renseigner_statut_biogeo" type="string" required="true()"/>
+      <setvalue ref="/data/settings/renseigner_statut_biogeo" value="coalesce( instance('__last-saved')/data/settings/renseigner_statut_biogeo ,'true')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/nb_lettres" type="int" constraint=".&gt;2 and .&lt;8" jr:constraintMsg="doit être compris entre 3 et 7" required="true()"/>
+      <setvalue ref="/data/settings/nb_lettres" value="coalesce( instance('__last-saved')/data/settings/nb_lettres ,'3')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/settings/tolerance" type="string" required="true()"/>
+      <setvalue ref="/data/settings/tolerance" value="coalesce( instance('__last-saved')/data/settings/tolerance ,'5')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/preferences_utilisateur" type="string" calculate="if(  /data/changer_preferences = 'true', concat( if( /data/settings/affichage_altitude  = 'true','altitude',''), if( /data/settings/affichage_profondeur  = 'true','profondeur ',''), if( /data/settings/nommage_site  = 'true','site',''), if( /data/settings/utiliser_geopoint  = 'true','point',''), if( /data/settings/utiliser_geotrace  = 'true','line',''), if( /data/settings/utiliser_geoshape  = 'true','polygon',''), if( /data/settings/renseigner_naturalite  = 'true','naturalite',''), if( /data/settings/renseigner_statut_biogeo  = 'true','biogeo','') ) , if(  instance('__last-saved')/data/preferences_utilisateur  = '','altitude,profondeur,site,point,line,polygon,naturalite,biogeo',  instance('__last-saved')/data/preferences_utilisateur  ) )"/>
+      <bind nodeset="/data/tolerance_pour_creation_point_auto" type="string" calculate="coalesce( /data/settings/tolerance ,'5')"/>
+      <bind nodeset="/data/nombre_lettres" type="string" calculate="coalesce( /data/settings/nb_lettres ,'3')"/>
+      <bind nodeset="/data/observateurs/preremplissage" readonly="true()" type="string" relevant=" /data/observateurs/username =''"/>
+      <bind nodeset="/data/observateurs/email_utilisateur" jr:preload="property" type="string" jr:preloadParams="email"/>
+      <bind nodeset="/data/observateurs/username" jr:preload="property" type="string" jr:preloadParams="username"/>
+      <bind nodeset="/data/observateurs/identite" type="string" constraint="contains(.,' ') or . = 'ANONYME'" jr:constraintMsg="NOM Prénom séparés d'un espace" required="true()"/>
+      <setvalue ref="/data/observateurs/identite" value="coalesce( /data/observateurs/username ,'ANONYME')" event="odk-instance-first-load"/>
+      <bind nodeset="/data/observateurs/mail" type="string" constraint="regex(.,'^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$')" jr:constraintMsg="Saisir une adresse mail valide"/>
+      <setvalue ref="/data/observateurs/mail" value=" /data/observateurs/email_utilisateur " event="odk-instance-first-load"/>
+      <bind nodeset="/data/observateurs/nomorganisme" type="string" required="true()"/>
+      <bind nodeset="/data/observateurs/autre_nomorganisme" type="string" required="true()" relevant=" /data/observateurs/nomorganisme ='AUTRE'"/>
+      <bind nodeset="/data/observateurs/ajout_accompagnateur" type="string"/>
+      <bind nodeset="/data/observateurs_accompagnateurs" relevant=" /data/observateurs/ajout_accompagnateur ='true'"/>
+      <bind nodeset="/data/observateurs_accompagnateurs/identite_accompagnateur" type="string" constraint="contains(.,' ') or . = 'ANONYME'" jr:constraintMsg="NOM Prénom séparés d'un espace" required="true()"/>
+      <bind nodeset="/data/observateurs_accompagnateurs/mail_accompagnateur" type="string" constraint="regex(.,'^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$') or .=''" jr:constraintMsg="Saisir une adresse mail valide"/>
+      <bind nodeset="/data/observateurs_accompagnateurs/nomorganisme_accompagnateur" type="string" required="true()"/>
+      <bind nodeset="/data/observateurs_accompagnateurs/autre_nomorganisme_accompagnateur" type="string" required="true()" relevant=" /data/observateurs/nomorganisme ='AUTRE'"/>
+      <bind nodeset="/data/date_heure" type="string" calculate="once(now())"/>
+      <bind nodeset="/data/emplacements/localites/precisions_georef/heure_localite" type="string" calculate="once(concat('à ',format-date-time(now(),&quot;%H:%M&quot;)))"/>
+      <bind nodeset="/data/emplacements/localites/precisions_georef/nom_lieu" type="string" relevant="contains( /data/preferences_utilisateur ,'site')"/>
+      <bind nodeset="/data/emplacements/localites/precisions_georef/methode_georef" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/longitude" type="decimal" constraint=". &gt; -180 and . &lt; 180" jr:constraintMsg="Veuillez saisir une valeur comprise entre 180 et -180 degrés" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'long_lat'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/latitude" type="decimal" constraint=". &gt; -90 and . &lt; 90" jr:constraintMsg="Veuillez saisir une valeur comprise entre -90 et 90 degrés" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'long_lat'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/point_auto_5" type="geopoint" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'point_auto' and  /data/tolerance_pour_creation_point_auto ='5'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/point_auto_10" type="geopoint" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'point_auto' and  /data/tolerance_pour_creation_point_auto ='10'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/point_auto_15" type="geopoint" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'point_auto' and  /data/tolerance_pour_creation_point_auto ='15'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/point" type="geopoint" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'point_carte'"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/ligne" type="geotrace" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'ligne'" odk:length="50000"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/polygone" type="geoshape" required="true()" relevant=" ../../precisions_georef/methode_georef  = 'polygone'" odk:length="50000"/>
+      <bind nodeset="/data/emplacements/localites/objetgeo/precision_geometrie" type="string" relevant=" ../../precisions_georef/methode_georef  = 'point_carte'"/>
+      <bind nodeset="/data/emplacements/localites/nature_objetgeo" type="string" required="true()" relevant=" ../precisions_georef/methode_georef  = 'ligne' or  ../precisions_georef/methode_georef  = 'polygone'"/>
+      <bind nodeset="/data/emplacements/localites/liste_especes_observees" type="string" calculate="join('&lt;br/&gt;', /data/emplacements/localites/observations/obs/especes_observees )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/idsinp_occtax" type="string" calculate="uuid()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/lib_obs" type="string" calculate="if((string-length(concat( ../animalia_selection/lb_nom_animalia  , ../plantae_selection/lb_nom_plantae  , ../fungi_selection/lb_nom_fungi ))=0),'', concat( ../animalia_selection/lb_nom_animalia  , ../plantae_selection/lb_nom_plantae  , ../fungi_selection/lb_nom_fungi ))"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/datedebut" type="string" calculate="once(format-date(once(now()),&quot;%Y-%m-%d&quot;))" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/heuredebut" type="string" calculate="once(format-date-time(now(),&quot;%H:%M:%S&quot;))" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/type_observation" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/animalia_selection" relevant=" ../type_observation  = 'animalia'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/animalia_selection/recherche_animalia" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/animalia_selection/lb_nom_animalia" type="string" required="true()" relevant="string-length( ../recherche_animalia ) &gt;  /data/nombre_lettres -1"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/animalia_selection/cd_nom_animalia" type="string" calculate="pulldata('espece_animale','cd_nom_key','lb_cd_nom_key', ../lb_nom_animalia )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/plantae_selection" relevant=" ../type_observation  = 'plantae'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/plantae_selection/recherche_plantae" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/plantae_selection/lb_nom_plantae" type="string" required="true()" relevant="string-length( ../recherche_plantae ) &gt;  /data/nombre_lettres -1"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/plantae_selection/cd_nom_plantae" type="string" calculate="pulldata('espece_plante','cd_nom_key','lb_cd_nom_key', ../lb_nom_plantae )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/fungi_selection" relevant=" ../type_observation  = 'fungi'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/fungi_selection/recherche_fungi" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/fungi_selection/lb_nom_fungi" type="string" required="true()" relevant="string-length( ../recherche_fungi ) &gt;  /data/nombre_lettres -1"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/fungi_selection/cd_nom_fungi" type="string" calculate="pulldata('espece_champi','cd_nom_key','lb_cd_nom_key', ../lb_nom_fungi )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/nomcite" type="string" calculate="concat( ../animalia_selection/lb_nom_animalia , ../plantae_selection/lb_nom_plantae , ../fungi_selection/lb_nom_fungi )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/groupe" type="string" calculate="concat(pulldata('espece_animale', 'groupe', 'cd_nom_key',  ../animalia_selection/cd_nom_animalia ) , pulldata('espece_plante', 'groupe', 'cd_nom_key',  ../plantae_selection/cd_nom_plantae ),pulldata('espece_champi', 'groupe', 'cd_nom_key',  ../fungi_selection/cd_nom_fungi ) )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/version_taxref" type="string" calculate="concat(pulldata('espece_animale', 'version_taxref', 'cd_nom_key',  ../animalia_selection/cd_nom_animalia ) , pulldata('espece_plante', 'version_taxref', 'cd_nom_key',  ../plantae_selection/cd_nom_plantae ),pulldata('espece_champi', 'version_taxref', 'cd_nom_key',  ../fungi_selection/cd_nom_fungi ) )"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/statut_observation" type="string" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/type_denombrement" type="string" relevant=" ../statut_observation !='No'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/denombrement" type="int" relevant=" ../statut_observation !='No' and (  ../type_denombrement  = 'Co' or  ../type_denombrement  = 'Ca')"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/estimation_effectif/denombrementmin" type="int" relevant=" ../../statut_observation !='No' and  ../../type_denombrement  = 'Es'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/estimation_effectif/denombrementmax" type="int" relevant=" ../../statut_observation !='No' and  ../../type_denombrement  = 'Es'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/denombrement_obs/objet_denombrement" type="string" required="true()" relevant=" ../statut_observation !='No'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet" relevant=" ../denombrement_obs/statut_observation !='No'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_description" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_contexte" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_technique" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_methode_determination" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_etat_biologique" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_naturalite" type="string" relevant="contains( /data/preferences_utilisateur ,'naturalite')"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_sexe" type="string" relevant=" ../../type_observation  = 'animalia'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_stade_vie" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_comportement" type="string" relevant=" ../../type_observation  = 'animalia'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_statut_biogeographique" type="string" relevant="contains( /data/preferences_utilisateur ,'biogeo')"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_statut_biologique" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_existante" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation" relevant=" ../preuve_existante ='Oui'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/prise_image" type="binary" orx:max-pixels="2000"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/echantillon" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/url_preuve_numerique" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/preuve_non_numerique" type="string" relevant=" ../echantillon !=''"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_altitude" type="string" relevant="contains( /data/preferences_utilisateur ,'altitude')"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_altitude" relevant=" ../precision_altitude ='true'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemin" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemoyenne" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemax" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_profondeur" type="string" relevant="contains( /data/preferences_utilisateur ,'profondeur')"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_profondeur" relevant=" ../precision_profondeur ='true'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmin" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmoyenne" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmax" type="decimal"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/datefin" type="string" calculate="once(format-date(today(),&quot;%Y-%m-%d&quot;))" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/heurefin" type="string" calculate="once(format-date-time(now(),&quot;%H:%M:%S&quot;))" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/precision_determination" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/PersonneType_determinateur" relevant=" ../precision_determination ='true'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/PersonneType_determinateur/date_determination" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/PersonneType_determinateur/determinateur" type="string" constraint="contains(.,' ') or .='ANONYME'" jr:constraintMsg="NOM Prénom séparés d'un espace" required="true()"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/PersonneType_determinateur/nomorganisme_determinateur" type="string"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/PersonneType_determinateur/autre_nomorganisme_determinateur" type="string" relevant=" ../nomorganisme_determinateur ='AUTRE'"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/especes_observees" type="string" calculate="join('&lt;br/&gt;',concat( ../animalia_selection/lb_nom_animalia , ../plantae_selection/lb_nom_plantae , ../fungi_selection/lb_nom_fungi ))"/>
+      <bind nodeset="/data/emplacements/localites/observations/obs/commentaire" type="string"/>
+      <bind nodeset="/data/emplacements/affiche_recap_obs_especes" readonly="true()" type="string"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" jr:preload="uid"/>
+      <bind nodeset="/data/meta/instanceName" type="string" calculate="concat('OccTaxODK', /data/date_heure ,'_',translate( /data/observateurs/identite ,' ','_'))"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/data/presentation">
+      <input ref="/data/presentation/presentation">
+        <label ref="jr:itext('/data/presentation/presentation:label')"/>
+        <hint>**OccTaxODK** est un formulaire ODK pour la saisie de données d'observations naturalistes selon le standard « Occurences de Taxon » v 2.0 du SINP.
+Il a été développé par **Nathalie Hiessler** et **Mathieu Bosssaert** du CEN Occitanie , et **Thomas Gachet** du CEN Nouvelle-Aquitaine
+Avec les contributions de la **communauté ODK** sur [le forum d'ODK](https://forum.getodk.org)
+
+&lt;span style=""color:#ff0000""&gt;***Attention, il s'agit d'un formulaire de démonstration dont les données sont publiques et peuvent être supprimées à tout moment. Il ne doit donc servir en aucun cas pour réaliser de vrais relevés de terrain.***&lt;/span&gt;</hint>
+      </input>
+    </group>
+    <select1 ref="/data/changer_preferences" appearance="quick">
+      <label>Paramétrer vos préférences ?</label>
+      <itemset nodeset="instance('boolean')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <group appearance="field-list" ref="/data/settings">
+      <label>Préférences</label>
+      <select1 ref="/data/settings/choix" appearance="label">
+        <label> </label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/utiliser_geopoint" appearance="list-nolabel">
+        <label>Points</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/utiliser_geotrace" appearance="list-nolabel">
+        <label>Lignes</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/utiliser_geoshape" appearance="list-nolabel">
+        <label>Polygones</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/nommage_site" appearance="list-nolabel">
+        <label>Renseigner le site concerné</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/affichage_altitude" appearance="list-nolabel">
+        <label>Demander l'altitude</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/affichage_profondeur" appearance="list-nolabel">
+        <label>Demander la profondeur</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/renseigner_naturalite" appearance="list-nolabel">
+        <label>Renseigner la naturalité du taxon observé</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <select1 ref="/data/settings/renseigner_statut_biogeo" appearance="list-nolabel">
+        <label>Renseigner le statut biogéographique du taxon observé</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <input ref="/data/settings/nb_lettres" appearance="columns">
+        <label>Nombre de lettres à taper pour déclencher la recherche du taxon</label>
+      </input>
+      <select1 ref="/data/settings/tolerance" appearance="columns">
+        <label>Tolérance du GPS</label>
+        <hint>pour enregistrement automatique du point</hint>
+        <itemset nodeset="instance('tolerance')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/data/observateurs">
+      <label>Observateurs</label>
+      <input ref="/data/observateurs/preremplissage">
+        <label>Pré-remplissage identité:</label>
+        <hint>Pour automatiser le remplissage de ces champs, renseignez vos NOM, Prénom et adresse mail dans les paramètres de l'application ou saisissez-y ANONYME en lieu et place du Nom d'utilisateur</hint>
+      </input>
+      <input ref="/data/observateurs/identite">
+        <label>Identité de l'observateur</label>
+        <hint>NOM Prénom séparés d'un espace</hint>
+      </input>
+      <input ref="/data/observateurs/mail">
+        <label>Mail de l'observateur</label>
+      </input>
+      <select1 ref="/data/observateurs/nomorganisme" appearance="minimal autocomplete">
+        <label>Sélectionnez votre organisme</label>
+        <hint>Cochez « Autre organisme » si vous ne trouvez pas votre structure&lt;br/&gt;Vous pourrez le renseigner ensuite.</hint>
+        <itemset nodeset="instance('lst_organisme')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+      <input ref="/data/observateurs/autre_nomorganisme">
+        <label>Tapez le nom de votre organisme</label>
+      </input>
+      <select1 ref="/data/observateurs/ajout_accompagnateur" appearance="quick">
+        <label>Ajouter des accompagnateurs</label>
+        <itemset nodeset="instance('boolean')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+    </group>
+    <group ref="/data/observateurs_accompagnateurs">
+      <label>Observateurs accompagnateurs</label>
+      <repeat nodeset="/data/observateurs_accompagnateurs" appearance="field-list">
+        <input ref="/data/observateurs_accompagnateurs/identite_accompagnateur">
+          <label>Identité de l'observateur</label>
+          <hint>NOM Prénom séparés d'un espace</hint>
+        </input>
+        <input ref="/data/observateurs_accompagnateurs/mail_accompagnateur">
+          <label>Mail de l'observateur</label>
+        </input>
+        <select1 ref="/data/observateurs_accompagnateurs/nomorganisme_accompagnateur" appearance="minimal autocomplete">
+          <label>Sélectionnez votre organisme</label>
+          <hint>Cochez « Autre organisme » si vous ne trouvez pas votre structure&lt;br/&gt;Vous pourrez le renseigner ensuite.</hint>
+          <itemset nodeset="instance('lst_organisme')/root/item">
+            <value ref="name"/>
+            <label ref="label"/>
+          </itemset>
+        </select1>
+        <input ref="/data/observateurs_accompagnateurs/autre_nomorganisme_accompagnateur">
+          <label>Tapez le nom de votre organisme</label>
+        </input>
+      </repeat>
+    </group>
+    <group ref="/data/emplacements">
+      <label>Emplacements</label>
+      <repeat nodeset="/data/emplacements">
+        <group ref="/data/emplacements/localites">
+          <label>
+            <output value=" ../localites/precisions_georef/heure_localite "/>
+          </label>
+          <group appearance="field-list" ref="/data/emplacements/localites/precisions_georef">
+            <label>Précisions sur le géoréférencement</label>
+            <input ref="/data/emplacements/localites/precisions_georef/nom_lieu">
+              <label>Précisez un nom de lieu si vous le souhaitez</label>
+              <hint>(ATTENTION : cet attribut ne pourra pas être flouté!)</hint>
+            </input>
+            <select1 ref="/data/emplacements/localites/precisions_georef/methode_georef">
+              <label>Méthode de géoréférencement ?</label>
+              <itemset nodeset="instance('methode_georef')/root/item[contains( /data/preferences_utilisateur ,filter)]">
+                <value ref="name"/>
+                <label ref="label"/>
+              </itemset>
+            </select1>
+          </group>
+          <group appearance="field-list" ref="/data/emplacements/localites/objetgeo">
+            <label>Objet géographique</label>
+            <input ref="/data/emplacements/localites/objetgeo/longitude">
+              <label>longitude (WGS 84)</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/latitude">
+              <label>latitude (WGS 84)</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/point_auto_5" accuracyThreshold="5">
+              <label>point automatique</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/point_auto_10" accuracyThreshold="10">
+              <label>point automatique</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/point_auto_15" accuracyThreshold="15">
+              <label>point automatique</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/point" appearance="quick placement-map">
+              <label>point sur carte</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/ligne">
+              <label>ligne</label>
+            </input>
+            <input ref="/data/emplacements/localites/objetgeo/polygone">
+              <label>polygone</label>
+            </input>
+            <select1 ref="/data/emplacements/localites/objetgeo/precision_geometrie">
+              <label>Précision du pointage distant</label>
+              <itemset nodeset="instance('precision')/root/item">
+                <value ref="name"/>
+                <label ref="label"/>
+              </itemset>
+            </select1>
+          </group>
+          <select1 ref="/data/emplacements/localites/nature_objetgeo" appearance="quick">
+            <label>Nature de l'objet géographique</label>
+            <itemset nodeset="instance('NAT_OBJ_GEO')/root/item">
+              <value ref="name"/>
+              <label ref="label"/>
+            </itemset>
+          </select1>
+          <group ref="/data/emplacements/localites/observations">
+            <label>Observations</label>
+            <repeat nodeset="/data/emplacements/localites/observations">
+              <group ref="/data/emplacements/localites/observations/obs">
+                <label>
+                  <output value=" ../obs/lib_obs "/>
+                </label>
+                <select1 ref="/data/emplacements/localites/observations/obs/type_observation" appearance="quick">
+                  <label>Type d'observation ?</label>
+                  <itemset nodeset="instance('list_observation')/root/item">
+                    <value ref="name"/>
+                    <label ref="label"/>
+                  </itemset>
+                </select1>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/animalia_selection">
+                  <label>
+                    <output value=" ../animalia_selection/lb_nom_animalia "/>
+                  </label>
+                  <input ref="/data/emplacements/localites/observations/obs/animalia_selection/recherche_animalia">
+                    <label>Nom de l'espèce animale :</label>
+                    <hint> au moins <output value=" /data/nombre_lettres "/> lettres </hint>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/animalia_selection/lb_nom_animalia" appearance="quick search('espece_animale', 'startswith', 'code_espece_key,lb_nom_key',  ../recherche_animalia )">
+                    <label>Sélectionnez l'espèce :</label>
+                    <item>
+                      <label>lb_nom_key</label>
+                      <value>lb_cd_nom_key</value>
+                    </item>
+                  </select1>
+                </group>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/plantae_selection">
+                  <label>
+                    <output value=" ../plantae_selection/lb_nom_plantae "/>
+                  </label>
+                  <input ref="/data/emplacements/localites/observations/obs/plantae_selection/recherche_plantae">
+                    <label>Nom de l'espèce végétale :</label>
+                    <hint> au moins <output value=" /data/nombre_lettres "/> lettres </hint>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/plantae_selection/lb_nom_plantae" appearance="quick search('espece_plante', 'startswith', 'code_espece_key,lb_nom_key',  ../recherche_plantae )">
+                    <label>Sélectionnez l'espèce :</label>
+                    <item>
+                      <label>lb_nom_key</label>
+                      <value>lb_cd_nom_key</value>
+                    </item>
+                  </select1>
+                </group>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/fungi_selection">
+                  <label>
+                    <output value=" ../fungi_selection/lb_nom_fungi "/>
+                  </label>
+                  <input ref="/data/emplacements/localites/observations/obs/fungi_selection/recherche_fungi">
+                    <label>Nom du champignon :</label>
+                    <hint> au moins <output value=" /data/nombre_lettres "/> lettres </hint>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/fungi_selection/lb_nom_fungi" appearance="quick search('espece_champi', 'startswith', 'code_espece_key,lb_nom_key',  ../recherche_fungi )">
+                    <label>Sélectionnez l'espèce :</label>
+                    <item>
+                      <label>lb_nom_key</label>
+                      <value>lb_cd_nom_key</value>
+                    </item>
+                  </select1>
+                </group>
+                <group ref="/data/emplacements/localites/observations/obs/denombrement_obs">
+                  <label>Détails sur les effectifs de l'observation :</label>
+                  <select1 ref="/data/emplacements/localites/observations/obs/denombrement_obs/statut_observation" appearance="quick">
+                    <label>Statut de l'observation :</label>
+                    <itemset nodeset="instance('STATUT_OBS')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/denombrement_obs/type_denombrement" appearance="quick">
+                    <label>Type de dénombrement :</label>
+                    <itemset nodeset="instance('DENBR')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <input ref="/data/emplacements/localites/observations/obs/denombrement_obs/denombrement">
+                    <label>Précisez un nombre exact :</label>
+                  </input>
+                  <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/denombrement_obs/estimation_effectif">
+                    <input ref="/data/emplacements/localites/observations/obs/denombrement_obs/estimation_effectif/denombrementmin">
+                      <label>Ou indiquez une valeur de fourchette basse :</label>
+                    </input>
+                    <input ref="/data/emplacements/localites/observations/obs/denombrement_obs/estimation_effectif/denombrementmax">
+                      <label>Et une valeur de fourchette haute :</label>
+                    </input>
+                  </group>
+                  <select1 ref="/data/emplacements/localites/observations/obs/denombrement_obs/objet_denombrement" appearance="quick">
+                    <label>Objet du dénombrement :</label>
+                    <itemset nodeset="instance('OBJ_DENBR')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                </group>
+                <group ref="/data/emplacements/localites/observations/obs/descriptif_sujet">
+                  <label>Description du sujet</label>
+                  <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_description">
+                    <label>Description de l'observation</label>
+                    <hint>Description libre de l'observation, aussi succincte et précise que possible.</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_contexte">
+                    <label>Contexte de l'observation</label>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/obs_technique" appearance="quick">
+                    <label>Type de contact</label>
+                    <itemset nodeset="instance('METH_OBS')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_methode_determination">
+                    <label>Méthode de détermination</label>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_etat_biologique" appearance="quick">
+                    <label>Etat biologique</label>
+                    <itemset nodeset="instance('ETA_BIO')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_naturalite" appearance="quick">
+                    <label>Naturalité</label>
+                    <itemset nodeset="instance('NATURALITE')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_sexe" appearance="quick">
+                    <label>Sexe</label>
+                    <itemset nodeset="instance('SEXE')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_stade_vie" appearance="quick">
+                    <label>Stade de vie</label>
+                    <itemset nodeset="instance('STADE_VIE')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_comportement" appearance="quick">
+                    <label>Comportement</label>
+                    <hint>Comportement de l'individu ou groupe d'individus.</hint>
+                    <itemset nodeset="instance('COMPORTEMENT')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_statut_biogeographique" appearance="quick">
+                    <label>Statut biogéographique</label>
+                    <itemset nodeset="instance('STAT_BIOGEO')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/occ_statut_biologique" appearance="quick">
+                    <label>Statut biologique</label>
+                    <itemset nodeset="instance('STATUT_BIO')/root/item[contains(regne, current()/../../type_observation ) or regne ='']">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <select1 ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_existante" appearance="quick">
+                    <label>Existance d'une preuve</label>
+                    <itemset nodeset="instance('PREUVE_EXIST')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <group ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation">
+                    <label>Preuves de l'observation (image, échantillon, son...)</label>
+                    <upload ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/prise_image" mediatype="image/*" appearance="annotate">
+                      <label>Prendre ou charger une photo</label>
+                      <hint>Vous pouvez l'annoter.</hint>
+                    </upload>
+                    <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/echantillon">
+                      <label>Identifiant d'un éventuel échantillon</label>
+                    </input>
+                    <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/url_preuve_numerique">
+                      <label>URL de la preuve numérique</label>
+                    </input>
+                    <input ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/preuve_non_numerique">
+                      <label>Preuve non numérique</label>
+                    </input>
+                  </group>
+                </group>
+                <select1 ref="/data/emplacements/localites/observations/obs/precision_altitude" appearance="quick">
+                  <label>Souhaitez vous préciser l'altitude ?</label>
+                  <itemset nodeset="instance('boolean')/root/item">
+                    <value ref="name"/>
+                    <label ref="label"/>
+                  </itemset>
+                </select1>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/precision_obs_altitude">
+                  <label>Précisions sur l'altitude de l'observation</label>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemin">
+                    <label>Altitude minimum</label>
+                    <hint>En mètres</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemoyenne">
+                    <label>Altitude moyenne</label>
+                    <hint>En mètres</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_altitude/altitudemax">
+                    <label>Altitude maximum</label>
+                    <hint>En mètres</hint>
+                  </input>
+                </group>
+                <select1 ref="/data/emplacements/localites/observations/obs/precision_profondeur" appearance="quick">
+                  <label>Souhaitez vous préciser la profondeur ?</label>
+                  <itemset nodeset="instance('boolean')/root/item">
+                    <value ref="name"/>
+                    <label ref="label"/>
+                  </itemset>
+                </select1>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/precision_obs_profondeur">
+                  <label>Précision sur la profondeur de l'observation</label>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmin">
+                    <label>Profondeur minimum</label>
+                    <hint>En mètres</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmoyenne">
+                    <label>Profondeur moyenne</label>
+                    <hint>En mètres</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/precision_obs_profondeur/profondeurmax">
+                    <label>Profondeur maximum</label>
+                    <hint>En mètres</hint>
+                  </input>
+                </group>
+                <select1 ref="/data/emplacements/localites/observations/obs/precision_determination" appearance="quick">
+                  <label>La date de détermination et/ou le déterminateur sont-ils différents de la date d'observation et/ou des observateurs ?</label>
+                  <itemset nodeset="instance('boolean')/root/item">
+                    <value ref="name"/>
+                    <label ref="label"/>
+                  </itemset>
+                </select1>
+                <group appearance="field-list" ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur">
+                  <label>Précisions concernant la détermination</label>
+                  <input ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/date_determination">
+                    <label>Date de détermination</label>
+                    <hint>Modifiez si différente de la date d'observation</hint>
+                  </input>
+                  <input ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/determinateur">
+                    <label>Identité déterminateur</label>
+                    <hint>NOM Prénom séparés d'un espace</hint>
+                  </input>
+                  <select1 ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/nomorganisme_determinateur" appearance="minimal autocomplete">
+                    <label>Sélectionnez l'organisme</label>
+                    <hint>Cochez « Autre organisme » si vous ne trouvez pas la structure</hint>
+                    <itemset nodeset="instance('lst_organisme')/root/item">
+                      <value ref="name"/>
+                      <label ref="label"/>
+                    </itemset>
+                  </select1>
+                  <input ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/autre_nomorganisme_determinateur">
+                    <label>Tapez le nom de l'organisme</label>
+                  </input>
+                </group>
+                <input ref="/data/emplacements/localites/observations/obs/commentaire">
+                  <label>Commentaire</label>
+                </input>
+              </group>
+              <setvalue ref="/data/emplacements/localites/observations/obs/descriptif_sujet/preuve_observation/preuve_non_numerique" value=" /data/observateurs/identite " event="odk-instance-first-load odk-new-repeat"/>
+              <setvalue ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/date_determination" value="string(format-date-time(once(today()),&quot;%Y-%m-%d&quot;))" event="odk-instance-first-load odk-new-repeat"/>
+              <setvalue ref="/data/emplacements/localites/observations/obs/PersonneType_determinateur/determinateur" value=" /data/observateurs/identite " event="odk-instance-first-load odk-new-repeat"/>
+            </repeat>
+          </group>
+        </group>
+        <input ref="/data/emplacements/affiche_recap_obs_especes">
+          <label> Espèces observées à cet emplacement :
+<output value=" ../localites/liste_especes_observees "/> </label>
+        </input>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>
